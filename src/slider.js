@@ -199,7 +199,7 @@ export default class Slider extends React.Component {
       const className = "regular slider " + (this.props.className || "");
       return <div className={className}>{children}</div>;
     } else if (newChildren.length <= settings.slidesToShow) {
-      settings.unslick = true;
+      //settings.unslick = true;
     }
     return (
       <InnerSlider
