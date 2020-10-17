@@ -1,0 +1,1 @@
+I removed unslick when siledToShow < SliderWidth because I want Slicker to show arrows even when we don't need them. algthough these arrows are dieabled in these situations.
